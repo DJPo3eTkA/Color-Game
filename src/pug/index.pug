@@ -1,0 +1,28 @@
+doctype html
+html(lang="en")
+  head
+    meta(charset="utf-8")
+    meta(http-equiv="X-UA-Compatible" content="IE=edge")
+    meta(name="viewport" content="width=device-width, initial-scale=1")
+    title Color Game
+    link(rel="stylesheet" href="assets/css/style.min.css")
+  body
+    .wrapper
+      h1 The Great
+        br 
+        span#colorDisplay RGB
+        br
+        | Color Game
+      .stripe
+        button#reset(type="button") New Colors
+        span#messageDisplay
+        button.mode(type="button") Easy
+        button.mode.selected(type="button") Hard
+      .container
+        .square
+        .square
+        .square
+        .square
+        .square
+        .square
+    script(src="assets/js/app.min.js")
