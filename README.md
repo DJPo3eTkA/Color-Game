@@ -1,12 +1,12 @@
-#Color Game Project
+Color Game Project
 
-##Instructions:
+Instructions:  
 
 --------------
 
 -yarn install - download packages  
--yarn - run Gulp  
--yarn - build - final build  
+-gulp - run Gulp  
+-gulp build - final build  
 
 Project based on  
 - ES6 
@@ -18,6 +18,7 @@ Project based on
 It's recommended for you to install Node.js and Gulp globally.
 
 ====================================================
+
 Ilya Safronov @djpo3etka / http://djpo3etka@gmail.com
 
 
